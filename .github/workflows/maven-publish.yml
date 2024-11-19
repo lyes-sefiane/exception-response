@@ -25,6 +25,7 @@ jobs:
           projectBaseDir: .
   maven-build:
     runs-on: ubuntu-latest
+    needs: [sonar-cloud-analysis]
     permissions:
       contents: read
       packages: write
