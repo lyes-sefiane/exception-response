@@ -8,6 +8,7 @@ class ExceptionResponseApplicationTests {
 
 	@Test
 	void contextLoads() {
+		//
 	}
 
 }
