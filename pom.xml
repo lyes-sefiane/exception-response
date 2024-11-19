@@ -35,6 +35,14 @@
 		<java.version>17</java.version>
 	</properties>
 
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub Lyes Sefiane Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/lyes-sefiane/exception-response</url>
+		</repository>
+	</distributionManagement>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
