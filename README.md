@@ -10,7 +10,25 @@
 
 # GitHub Badges
 
-- TODO
+![License](https://img.shields.io/static/v1?label=License&message=CC-BY-NC-ND-4.0&color=green)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+[![CodeQL](https://github.com/lyes-sefiane/exception-response/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/lyes-sefiane/exception-response/actions/workflows/github-code-scanning/codeql)
+[![Automatic Dependency Submission](https://github.com/lyes-sefiane/exception-response/actions/workflows/dependency-graph/auto-submission/badge.svg)](https://github.com/lyes-sefiane/exception-response/actions/workflows/dependency-graph/auto-submission)
+[![Maven Package](https://github.com/lyes-sefiane/exception-response/actions/workflows/maven-publish.yml/badge.svg)](https://github.com/lyes-sefiane/exception-response/actions/workflows/maven-publish.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=lyes-sefiane_exception-response&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=lyes-sefiane_exception-response)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=lyes-sefiane_exception-response&metric=bugs)](https://sonarcloud.io/summary/new_code?id=lyes-sefiane_exception-response)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=lyes-sefiane_exception-response&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=lyes-sefiane_exception-response)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=lyes-sefiane_exception-response&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=lyes-sefiane_exception-response)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=lyes-sefiane_exception-response&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=lyes-sefiane_exception-response)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=lyes-sefiane_exception-response&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=lyes-sefiane_exception-response)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=lyes-sefiane_exception-response&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=lyes-sefiane_exception-response)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=lyes-sefiane_exception-response&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=lyes-sefiane_exception-response)
+![GitHub top language](https://img.shields.io/github/languages/top/lyes-sefiane/exception-response)
+![GitHub Release](https://img.shields.io/github/v/release/lyes-sefiane/exception-response)
+![GitHub Release Date](https://img.shields.io/github/release-date/lyes-sefiane/exception-response)
+![GitHub contributors](https://img.shields.io/github/contributors/lyes-sefiane/exception-response)
+![GitHub Repo stars](https://img.shields.io/github/stars/lyes-sefiane/exception-response?style=social)
+
 
 # Contributing
 
