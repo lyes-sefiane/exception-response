@@ -7,11 +7,11 @@ on:
   push:
     branches: ["main", "develop"]
   release:
-    types: [created]
+    types:
+      - published
 
 jobs:
-  build:
-
+  maven-build:
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -24,13 +24,22 @@ jobs:
       with:
         java-version: '17'
         distribution: 'temurin'
-        server-id: github # Value of the distributionManagement/repository/id field of the pom.xml
-        settings-path: ${{ github.workspace }} # location for the settings.xml file
+        server-id: github
+        settings-path: ${{ github.workspace }}
 
     - name: Build with Maven
       run: mvn -B package --file pom.xml
 
+    - name: Upload 'exception-response-x.y.z.jar' Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: exception-response
+        path: target/*.jar
+        compression-level: 0
+        overwrite: true
+
     - name: Publish to GitHub Packages Apache Maven
+      if: github.event.action == 'published'
       run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
       env:
         GITHUB_TOKEN: ${{ github.token }}
