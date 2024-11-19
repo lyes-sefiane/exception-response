@@ -8,7 +8,7 @@
 		<version>3.3.5</version>
 		<relativePath/>
 	</parent>
-	<groupId>com.lyess</groupId>
+	<groupId>com.lyessefiane</groupId>
 	<artifactId>exception-response</artifactId>
 	<version>0.0.1</version>
 	<name>Exception Response</name>

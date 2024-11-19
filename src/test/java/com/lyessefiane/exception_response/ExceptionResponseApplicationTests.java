@@ -1,4 +1,4 @@
-package com.lyess.exception_response;
+package com.lyessefiane.exception_response;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
