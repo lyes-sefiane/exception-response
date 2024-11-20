@@ -59,66 +59,36 @@
 
 <img title="SonarQube Cloud" alt="SonarQube Cloud" src="https://raw.githubusercontent.com/wiki/lyes-sefiane/exception-response/images/lyes-sefiane-sonarcloud-analysis.PNG">
 
-## Snyk 
 
-### Snyk Maven Analysis
-
-```bash
-
-Testing /github/workspace...
-
-Organization:      lyes-sefiane
-Package manager:   maven
-Target file:       pom.xml
-Project name:      com.lyessefiane:exception-response
-Open source:       no
-Project path:      /github/workspace
-Licenses:          enabled
-
-✔ Tested 22 dependencies for known issues, no vulnerable paths found.
-
-```
-
-<img title="Snyk" alt="Snyk" src="https://raw.githubusercontent.com/wiki/lyes-sefiane/exception-response/images/lyes-sefiane-snyk-analysis.PNG">
-
-
-# OWASP Local Dependency-Check
+## OWASP Dependency-Check
 
 ```bash
 
-[INFO] Checking for updates
-[WARNING] An NVD API Key was not provided - it is highly recommended to use an NVD API key as the update can take a VERY long time without an API Key
-[INFO] NVD API has 1,263 records in this update
-[INFO] Downloaded 1,263/1,263 (100%)
-[INFO] Completed processing batch 1/1 (100%) in 2,921ms
 [INFO] Updating CISA Known Exploited Vulnerability list: https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
 [INFO] Begin database defrag
-[INFO] End database defrag (14653 ms)
-[INFO] Check for updates complete (27244 ms)
-[WARNING] Explicitly loaded driver org.h2.Driver from classpath; if JDBCv4 service loading is supported by the driver you should remove the dbDriver configuration
+[INFO] End database defrag (3944 ms)
+[INFO] Check for updates complete (264697 ms)
+Warning:  Explicitly loaded driver org.h2.Driver from classpath; if JDBCv4 service loading is supported by the driver you should remove the dbDriver configuration
 [INFO] 
 
-Dependency-Check is an open source tool performing a best effort analysis of 3rd party dependencies; false positives and false negatives may exist in the anal
-ysis performed by the tool. Use of the tool and the reporting provided constitutes acceptance for use in an AS IS condition, and there are NO warranties, impl
-ied or otherwise, with regard to the analysis or its use. Any use of the tool and the reporting provided is at the user's risk. In no event shall the copyrigh
-t holder or OWASP be held liable for any damages whatsoever arising out of or in connection with the use of this tool, the analysis performed, or the resulting report.
+Dependency-Check is an open source tool performing a best effort analysis of 3rd party dependencies; false positives and false negatives may exist in the analysis performed by the tool. Use of the tool and the reporting provided constitutes acceptance for use in an AS IS condition, and there are NO warranties, implied or otherwise, with regard to the analysis or its use. Any use of the tool and the reporting provided is at the user's risk. In no event shall the copyright holder or OWASP be held liable for any damages whatsoever arising out of or in connection with the use of this tool, the analysis performed, or the resulting report.
 
 
    About ODC: https://jeremylong.github.io/DependencyCheck/general/internals.html
    False Positives: https://jeremylong.github.io/DependencyCheck/general/suppression.html
 
-? Sponsor: https://github.com/sponsors/jeremylong
+💖 Sponsor: https://github.com/sponsors/jeremylong
 
 
 [INFO] Analysis Started
-[INFO] Finished Archive Analyzer (1 seconds)
+[INFO] Finished Archive Analyzer (0 seconds)
 [INFO] Finished File Name Analyzer (0 seconds)
 [INFO] Finished Jar Analyzer (0 seconds)
 [INFO] Finished Dependency Merging Analyzer (0 seconds)
 [INFO] Finished Hint Analyzer (0 seconds)
 [INFO] Finished Version Filter Analyzer (0 seconds)
-[INFO] Created CPE Index (4 seconds)
-[INFO] Finished CPE Analyzer (6 seconds)
+[INFO] Created CPE Index (1 seconds)
+[INFO] Finished CPE Analyzer (2 seconds)
 [INFO] Finished False Positive Analyzer (0 seconds)
 [INFO] Finished NVD CVE Analyzer (0 seconds)
 [INFO] Finished Sonatype OSS Index Analyzer (0 seconds)
@@ -126,9 +96,8 @@ t holder or OWASP be held liable for any damages whatsoever arising out of or in
 [INFO] Finished Known Exploited Vulnerability Analyzer (0 seconds)
 [INFO] Finished Dependency Bundling Analyzer (0 seconds)
 [INFO] Finished Unused Suppression Rule Analyzer (0 seconds)
-[INFO] Analysis Complete (10 seconds)
-[INFO] Writing HTML report to: C:\Users\Lyes Sefiane\Documents\eclipse-workspace\exception-response\target\dependency-check-report.html
-[INFO] 
+[INFO] Analysis Complete (4 seconds)
+[INFO] Writing HTML report to: /home/runner/work/exception-response/exception-response/target/dependency-check-report.html
 
 
 ```
