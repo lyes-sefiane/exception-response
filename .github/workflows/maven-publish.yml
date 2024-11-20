@@ -40,7 +40,7 @@ jobs:
         settings-path: ${{ github.workspace }}
 
     - name: Build with Maven
-      run: mvn clean install -DskipTests
+      run: mvn clean install -DskipTests -DnvdApiKey=${{secrets.NVD_API_KEY}}
 
     - name: Upload 'exception-response-x.y.z.jar' Artifact
       uses: actions/upload-artifact@v4
