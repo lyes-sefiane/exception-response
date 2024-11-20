@@ -74,6 +74,7 @@
 				<version>${dependency-check-maven.version}</version>
 				<configuration>
 					<failBuildOnCVSS>0.0</failBuildOnCVSS>
+					<nvdApiKey>${{secrets.NVD_API_KEY}}</nvdApiKey>
 				</configuration>
 				<executions>
 					<execution>
