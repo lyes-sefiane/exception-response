@@ -29,6 +29,14 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/lyes-sefiane/exception-response)
 ![GitHub Repo stars](https://img.shields.io/github/stars/lyes-sefiane/exception-response?style=social)
 
+# Requirements
+
+- [x] Java 17.x.y
+
+- [x] Maven 3.x.y
+
+
+
 # GitHub Maven Package
 
 ```bash
