@@ -23,9 +23,26 @@ jobs:
             -Dsonar.projectKey=${{ secrets.SONAR_CLOUD_PROJECT_KEY }}
             -Dsonar.organization=${{ secrets.SONAR_CLOUD_ORGANIZATION }}
           projectBaseDir: .
-  maven-build:
+  snyk-maven-analysis:
+    permissions:
+      contents: read
+      security-events: write
+      actions: read
     runs-on: ubuntu-latest
     needs: [sonar-cloud-analysis]
+    steps:
+      - uses: actions/checkout@master
+      - name: Run Snyk to check for vulnerabilities
+        uses: snyk/actions/maven-3-jdk-17@master
+        continue-on-error: true
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+        with:
+          command: monitor
+          args: --severity-threshold=low
+  maven-build:
+    runs-on: ubuntu-latest
+    needs: [snyk-maven-analysis]
     permissions:
       contents: read
       packages: write
