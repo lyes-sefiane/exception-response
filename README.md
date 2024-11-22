@@ -39,6 +39,9 @@
 
 # GitHub Maven Package
 
+![GitHub Release](https://img.shields.io/github/v/release/lyes-sefiane/exception-response)
+![GitHub Release Date](https://img.shields.io/github/release-date/lyes-sefiane/exception-response)
+
 ```bash
 
     <dependency>
@@ -68,49 +71,9 @@
 <img title="SonarQube Cloud" alt="SonarQube Cloud" src="https://raw.githubusercontent.com/wiki/lyes-sefiane/exception-response/images/lyes-sefiane-sonarcloud-analysis.PNG">
 
 
-## OWASP Dependency-Check
+## Snyk Monitoring
 
-```bash
-
-[INFO] Updating CISA Known Exploited Vulnerability list: https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
-[INFO] Begin database defrag
-[INFO] End database defrag (3944 ms)
-[INFO] Check for updates complete (264697 ms)
-Warning:  Explicitly loaded driver org.h2.Driver from classpath; if JDBCv4 service loading is supported by the driver you should remove the dbDriver configuration
-[INFO] 
-
-Dependency-Check is an open source tool performing a best effort analysis of 3rd party dependencies; false positives and false negatives may exist in the analysis performed by the tool. Use of the tool and the reporting provided constitutes acceptance for use in an AS IS condition, and there are NO warranties, implied or otherwise, with regard to the analysis or its use. Any use of the tool and the reporting provided is at the user's risk. In no event shall the copyright holder or OWASP be held liable for any damages whatsoever arising out of or in connection with the use of this tool, the analysis performed, or the resulting report.
-
-
-   About ODC: https://jeremylong.github.io/DependencyCheck/general/internals.html
-   False Positives: https://jeremylong.github.io/DependencyCheck/general/suppression.html
-
-💖 Sponsor: https://github.com/sponsors/jeremylong
-
-
-[INFO] Analysis Started
-[INFO] Finished Archive Analyzer (0 seconds)
-[INFO] Finished File Name Analyzer (0 seconds)
-[INFO] Finished Jar Analyzer (0 seconds)
-[INFO] Finished Dependency Merging Analyzer (0 seconds)
-[INFO] Finished Hint Analyzer (0 seconds)
-[INFO] Finished Version Filter Analyzer (0 seconds)
-[INFO] Created CPE Index (1 seconds)
-[INFO] Finished CPE Analyzer (2 seconds)
-[INFO] Finished False Positive Analyzer (0 seconds)
-[INFO] Finished NVD CVE Analyzer (0 seconds)
-[INFO] Finished Sonatype OSS Index Analyzer (0 seconds)
-[INFO] Finished Vulnerability Suppression Analyzer (0 seconds)
-[INFO] Finished Known Exploited Vulnerability Analyzer (0 seconds)
-[INFO] Finished Dependency Bundling Analyzer (0 seconds)
-[INFO] Finished Unused Suppression Rule Analyzer (0 seconds)
-[INFO] Analysis Complete (4 seconds)
-[INFO] Writing HTML report to: /home/runner/work/exception-response/exception-response/target/dependency-check-report.html
-
-
-```
-
-<img title="Snyk" alt="Snyk" src="https://raw.githubusercontent.com/wiki/lyes-sefiane/exception-response/images/lyes-sefiane-dependency-check.PNG">
+<img title="Snyk" alt="Snyk" src="https://raw.githubusercontent.com/wiki/lyes-sefiane/exception-response/images/lyes-sefiane-snyk-monitoring.PNG">
 
 
 # Contributing
