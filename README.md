@@ -44,13 +44,17 @@
 
 ```bash
 
-    <dependency>
-      <groupId>com.lyessefiane</groupId>
-      <artifactId>exception-response</artifactId>
-      <version>1.0.0</version>
-    </dependency>
-    
+<dependency>
+  <groupId>io.github.lyes-sefiane</groupId>
+  <artifactId>exception-response</artifactId>
+  <version>2.0.0</version>
+</dependency>
+
 ```
+
+<img title="GitHub Packages" alt="GitHub Packages" src="https://raw.githubusercontent.com/wiki/lyes-sefiane/exception-response/images/lyes-sefiane-github-packages.PNG">
+
+
 # CI/CD with GitHub Actions
 
 ## GitHub Actions Pipeline
