@@ -8,10 +8,10 @@
 		<version>3.3.5</version>
 		<relativePath/>
 	</parent>
-	<groupId>com.lyessefiane</groupId>
+	<groupId>io.github.lyes-sefiane</groupId>
 	<artifactId>exception-response</artifactId>
-	<version>1.0.0</version>
-	<name>Exception Response</name>
+	<version>2.0.0</version>
+	<name>exception-response</name>
 	<description>Common Entity Exception Response</description>
 	<url>https://lyes-sefiane.web.app/</url>
 	<licenses>

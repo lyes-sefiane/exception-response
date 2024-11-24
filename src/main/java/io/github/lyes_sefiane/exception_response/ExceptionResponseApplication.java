@@ -1,4 +1,4 @@
-package com.lyessefiane.exception_response;
+package io.github.lyes_sefiane.exception_response;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

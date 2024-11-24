@@ -1,4 +1,4 @@
-package com.lyessefiane.exception_response.entities;
+package io.github.lyes_sefiane.exception_response.entities;
 
 /**
  * @author  : Lyes Sefiane
