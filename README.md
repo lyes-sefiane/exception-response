@@ -47,7 +47,7 @@
 <dependency>
   <groupId>io.github.lyes-sefiane</groupId>
   <artifactId>exception-response</artifactId>
-  <version>2.0.0</version>
+  <version>x.y.z</version>
 </dependency>
 
 ```
@@ -76,6 +76,26 @@
 
 
 ## Snyk Monitoring
+
+```bash
+
+Run snyk/actions/maven-3-jdk-17@master
+  with:
+    command: monitor
+    args: --severity-threshold=low
+    json: false
+  env:
+    SNYK_TOKEN: ***
+/usr/bin/docker run --name snyksnykmaven3jdk17_cf5032 --label 6baf8d --workdir /github/workspace --rm -e "SNYK_TOKEN" -e "INPUT_COMMAND" -e "INPUT_ARGS" -e "INPUT_JSON" -e "FORCE_COLOR" -e "SNYK_INTEGRATION_NAME" -e "SNYK_INTEGRATION_VERSION" -e "HOME" -e "GITHUB_JOB" -e "GITHUB_REF" -e "GITHUB_SHA" -e "GITHUB_REPOSITORY" -e "GITHUB_REPOSITORY_OWNER" -e "GITHUB_REPOSITORY_OWNER_ID" -e "GITHUB_RUN_ID" -e "GITHUB_RUN_NUMBER" -e "GITHUB_RETENTION_DAYS" -e "GITHUB_RUN_ATTEMPT" -e "GITHUB_REPOSITORY_ID" -e "GITHUB_ACTOR_ID" -e "GITHUB_ACTOR" -e "GITHUB_TRIGGERING_ACTOR" -e "GITHUB_WORKFLOW" -e "GITHUB_HEAD_REF" -e "GITHUB_BASE_REF" -e "GITHUB_EVENT_NAME" -e "GITHUB_SERVER_URL" -e "GITHUB_API_URL" -e "GITHUB_GRAPHQL_URL" -e "GITHUB_REF_NAME" -e "GITHUB_REF_PROTECTED" -e "GITHUB_REF_TYPE" -e "GITHUB_WORKFLOW_REF" -e "GITHUB_WORKFLOW_SHA" -e "GITHUB_WORKSPACE" -e "GITHUB_ACTION" -e "GITHUB_EVENT_PATH" -e "GITHUB_ACTION_REPOSITORY" -e "GITHUB_ACTION_REF" -e "GITHUB_PATH" -e "GITHUB_ENV" -e "GITHUB_STEP_SUMMARY" -e "GITHUB_STATE" -e "GITHUB_OUTPUT" -e "RUNNER_OS" -e "RUNNER_ARCH" -e "RUNNER_NAME" -e "RUNNER_ENVIRONMENT" -e "RUNNER_TOOL_CACHE" -e "RUNNER_TEMP" -e "RUNNER_WORKSPACE" -e "ACTIONS_RUNTIME_URL" -e "ACTIONS_RUNTIME_TOKEN" -e "ACTIONS_CACHE_URL" -e "ACTIONS_RESULTS_URL" -e GITHUB_ACTIONS=true -e CI=true -v "/var/run/docker.sock":"/var/run/docker.sock" -v "/home/runner/work/_temp/_github_home":"/github/home" -v "/home/runner/work/_temp/_github_workflow":"/github/workflow" -v "/home/runner/work/_temp/_runner_file_commands":"/github/file_commands" -v "/home/runner/work/exception-response/exception-response":"/github/workspace" snyk/snyk:maven-3-jdk-17  "snyk" "monitor" "--severity-threshold=low"
+
+Monitoring /github/workspace (io.github.lyes-sefiane:exception-response)...
+
+Explore this snapshot at https://app.snyk.io/org/lyes-sefiane/project/1f02c132-1929-46b9-8597-1795b88a028d/history/d8a76503-960b-4410-b033-67cc851b2777
+
+Notifications about newly disclosed issues related to these dependencies will be emailed to you.
+
+
+```
 
 <img title="Snyk" alt="Snyk" src="https://raw.githubusercontent.com/wiki/lyes-sefiane/exception-response/images/lyes-sefiane-snyk-monitoring.PNG">
 
