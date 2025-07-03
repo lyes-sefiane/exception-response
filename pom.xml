@@ -5,15 +5,16 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.4.5</version>
+		<version>3.5.3</version>
 		<relativePath/>
 	</parent>
 	<groupId>io.github.lyes-sefiane</groupId>
 	<artifactId>exception-response</artifactId>
-	<version>2.3.0</version>
+	<version>2.4.0</version>
 	<name>exception-response</name>
 	<description>Common Entity Exception Response</description>
 	<url>https://lyes-sefiane.web.app/</url>
+
 	<licenses>
 		<license>
 			<name>CC BY-NC-ND 4.0</name>
@@ -21,19 +22,21 @@
 			<comments>Attribution-NonCommercial-NoDerivatives 4.0 International</comments>
 		</license>
 	</licenses>
+
 	<developers>
 		<developer>
-			<name>Lyes Sefiane</name>
+			<name>Lyes SEFIANE</name>
 			<email>lyes.sefiane@gmail.com</email>
 			<url>https://github.com/lyes-sefiane</url>
 			<roles>
-				<role>Software Engineer 3 𓂀</role>
+				<role>Software Engineering Manager</role>
 			</roles>
 		</developer>
 	</developers>
+
 	<properties>
 		<java.version>17</java.version>
-		<webmvc-ui.version>2.8.6</webmvc-ui.version>
+		<webmvc-ui.version>2.8.9</webmvc-ui.version>
 	</properties>
 
 	<distributionManagement>
